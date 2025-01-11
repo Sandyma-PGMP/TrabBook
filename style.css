@@ -130,6 +130,9 @@ ol {
 .justify-between {
     justify-content: space-between;
 }
+.justify-evenly{
+    justify-content: space-evenly;
+}
 
 .mb-20 {
     margin-bottom: 20px;
@@ -364,7 +367,7 @@ ol {
         height: 150px;
         color: #2F2F2F;
         background: #FEFCFB;
-        padding-left: 140px;
+        padding-left: 318px;
 
 
         .content {
@@ -424,9 +427,9 @@ ol {
 
 
         .content {
-            width: 550px;
+            width: 660px;
             height: 150px;
-            padding-left: 0px;
+            padding-left:124px;
             text-align: center;
             box-sizing: border-box;
 
@@ -528,6 +531,9 @@ ol {
         }
 
     }
+    .final{
+        width: 50%;
+    }
 }
 
 .blog {
@@ -555,6 +561,9 @@ ol {
 }
 
 .subscribe {
+    .master{
+        width:100%;
+    }
     .container {
         background:#FA7436;
         width: 70%;
@@ -571,7 +580,7 @@ ol {
               text-align: center;
         }
         .search_input {
-            width:600px;
+            width:700px;
             height: 60px;
             background:#FFFFFF;
             border-radius: 10px;
@@ -590,5 +599,19 @@ ol {
         
         
     }
+    .company{
+        width:100%;
+        p{
+            color:#948C8C;
+            margin-bottom:10px;
+        }
     }
+    }
+.footer{
+    height:20px;
+    p{
+        color: #948C8C;
+    
+    }
+}    
     
