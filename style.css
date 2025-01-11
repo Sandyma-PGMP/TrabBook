@@ -83,22 +83,28 @@ ol {
     column-gap: 100px;
 }
 
-.w-6
-{
+.w-6 {
     width: 28px;
 }
-.gap-5{
+
+.gap-5 {
     gap: 6px;
 }
 
-.my-10{
+.gap-25 {
+    gap: 25px
+}
+
+.my-10 {
     margin: 10px 0;
 }
-.w-full{
-    width:100%;
+
+.w-full {
+    width: 100%;
 }
-.card{
-    width:300px;
+
+.card {
+    width: 300px;
 }
 
 .flex {
@@ -129,6 +135,10 @@ ol {
     margin-bottom: 20px;
 }
 
+.mb-15 {
+    margin-bottom: 15px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -146,19 +156,21 @@ ol {
 }
 
 .section_container {
-    padding-left:118px ;
-    padding-right:100px ;
+    padding-left: 118px;
+    padding-right: 100px;
 }
-.bg-price{
+
+.bg-price {
     color: #ce6700;
     background-color: #ffcc98;
     padding: 2px 6px;
     border-radius: 3px;
 }
 
-.bg-red{
+.bg-red {
     justify-content: center;
 }
+
 .discover {
     width: 160px;
     height: 50px;
@@ -169,9 +181,19 @@ ol {
     font-weight: 500;
     border-color: #FA7436;
 }
-.w-3{
-    width:20px;
+
+.w-3 {
+    width: 20px;
 }
+.primary_button {
+    width: 112px;
+    height: 45px;
+    background-color:#FF7E00;
+    border-radius: 10px;
+    color:#FFFFFF;
+    border: none;
+    outline: none;
+}  
 
 .hero {
     background: #FEFCFB;
@@ -235,7 +257,7 @@ ol {
             width: 50%;
 
             h1 {
-                font-size: 100px;
+                font-size: 30px;
                 line-height: 50px;
                 font-weight: 700;
                 ;
@@ -268,36 +290,43 @@ ol {
                 flex-wrap: wrap;
 
             }
-            .bg{
+
+            .bg {
                 background-color: white;
-                padding:12px 16px; 
+                padding: 12px 16px;
                 border-radius: 8px;
             }
-            .relative{
+
+            .relative {
                 position: relative;
             }
-            .absolute{
-                position:absolute;
+
+            .absolute {
+                position: absolute;
             }
-            .top-20{
-                top:20px;
-                left:-50px;
+
+            .top-20 {
+                top: 20px;
+                left: -50px;
             }
-            .bottom-20{
-                bottom:60px;
-                left:-50px;
-                
+
+            .bottom-20 {
+                bottom: 60px;
+                left: -50px;
+
             }
-            .right-20{
-                right:-99px;
-                top:273px;
+
+            .right-20 {
+                right: -99px;
+                top: 273px;
             }
-            .flex{
+
+            .flex {
                 display: flex;
-                gap:16px;
+                gap: 16px;
                 align-items: center;
             }
-            
+
         }
 
     }
@@ -321,8 +350,8 @@ ol {
 
 }
 
-.color{
-    color:var(--COLOR-PRIMARY)
+.color {
+    color: var(--COLOR-PRIMARY)
 }
 
 
@@ -391,7 +420,7 @@ ol {
         height: 150px;
         color: #2F2F2F;
         background: #FEFCFB;
-        padding-left:244px;
+        padding-left: 244px;
 
 
         .content {
@@ -409,13 +438,14 @@ ol {
     }
 
     .places {
-            width: 100%;
-            height: 300px;
-            border: 1px solid lightgray;
+        width: 100%;
+        height: 300px;
+        border: 1px solid lightgray;
+
         .place {
             width: 25%;
             height: 280px;
-            padding:10px;
+            padding: 10px;
 
             img {
                 width: 100%;
@@ -423,63 +453,142 @@ ol {
             }
 
             .content {
-              
+
                 .normal-pricing {
                     color: var(--COLOR-DARK);
                     font-size: 16px;
                     text-decoration: line-through;
                     margin-right: 5px;
                 }
+
                 .actual-pricing {
                     font-size: 20px;
                     font-weight: bold;
                 }
             }
-            
+
         }
 
     }
 }
-.vacation{
-    height:500px;
-    .header{
-        .content{
-            width:628px;
-            height:142px;
+
+.vacation {
+    height: 600px;
+
+    .header {
+        .content {
+            width: 628px;
+            height: 142px;
             text-align: center;
-            box-sizing:content-box;
+            box-sizing: content-box;
             position: relative;
-    
-            h2{
-                 font-size:30px;
+
+            h2 {
+                font-size: 30px;
             }
-            .tree{
-                width:100px;
-                height:100px;
-                
+
+            .tree {
+                width: 100px;
+                height: 100px;
+
             }
-            .adj1{
+
+            .adj1 {
                 position: absolute;
-                top:1px;
-                right:-104px;
+                top: 1px;
+                right: -104px;
             }
-            
+
         }
     }
-    .card1{
-        width:300px;
-        background-color: #FA7436;
-         .image{
-            width:300px;
-            height:300px;
-            flex-wrap: wrap;
-            /* background-size: contain;
-            */ 
 
+    .card {
+        width: 327px;
+    }
+
+
+}
+
+.testimonials {
+    height: 500px;
+
+    .container {
+        width: 50%;
+        height: 500px;
+
+        .button {
+            width: 30px;
+            height: 30px;
+            border-radius: 40%;
+            background: #FA7436;
+            outline: none;
+            border: 10px;
+            color: #FFFFFF;
+            font-weight: 700;
         }
+
+    }
+}
+
+.blog {
+    height: 600px;
+
+    .header {
+        height: 100px;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .card {
+        width: 320px;
+
+        h4 {
+            line-height: 22px;
+        }
+
+        p {
+            color: #948C8C;
+        }
+    }
+}
+
+.subscribe {
+    .container {
+        background:#FA7436;
+        width: 70%;
+        height: 370px;
+        border-radius: 20px;
+        padding: 0px 20px;
+        box-sizing: border-box;
+
+        h1 {
+              font-family:serif;
+              color:#FEFCFB;
+              font-size:50px;
+              line-height: 60px;
+              text-align: center;
+        }
+        .search_input {
+            width:600px;
+            height: 60px;
+            background:#FFFFFF;
+            border-radius: 10px;
+            padding: 15 10px;
+            box-sizing: border-box;
+            input {
+                width: 100%;
+                height: 100%;
+                background-color: transparent;
+                outline: none;
+                border: none;
+            }
+        }
+  
         
-
-
+        
+        
+    }
     }
     
-}
